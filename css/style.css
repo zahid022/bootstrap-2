@@ -1,0 +1,37 @@
+:root{
+    --qirmizi: #e43c5c;
+    --cehrayi: #fdeff2;
+    --boz: #ede9e9;
+}
+body{color: #444; font-family: 'Open Sans' , sans-serif;}
+.bg-qirmizi{background-color: var(--qirmizi);}
+.text-qirmizi{color: var(--qirmizi);}
+.bg-boz{background-color: var(--boz);}
+.text-boz{color: var(--boz);}
+.text-gri{color: #bababa;}
+.bg-cehrayi{background-color: var(--cehrayi);}
+.lts-1{letter-spacing: 1px;}
+.bxsh-card{box-shadow: 2px 0 35px 0 rgba(68, 88, 144, 0.12);}
+.fs14px{font-size: 14px !important;}
+.pointer{ cursor: pointer;}
+/*    h e a  d e r    */
+header{background: url('../img/hero-bg.jpg') top center /cover fixed;}
+nav{background-color: #00000080;}
+#logo>a {font-size: 28px;}
+#hero{background-color: rgba(0, 0, 0, 0.6);}
+#hero span{background-color: rgba(255, 255, 255, 0.1) ;}
+.nav-link{transition: .5s;}
+.nav-link:hover{color: #e43c5c !important;}
+/*     m a i  n   */
+#cta {background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("../img/cta-bg.jpg") center/cover fixed;}
+.box{background-color: #f9f9f9; border: 2px solid #f9f9f9;}
+.reco{border-color: #e43c5c;}
+.accordion-item{border-bottom: 1px solid #eee !important;}
+/*    f  o o t e r   */
+footer{background-color: #f6f4f4;}
+#footer-start .list-group-item { transition: .5s;}
+#footer-start .list-group-item:hover { color: #e43c5c;}
+#input span{transition: .5s;}
+#input span:hover{background-color: #a52834 !important;}
+.social-links i{transition: .5s;}
+.social-links i:hover {background-color: #a52834 !important;}
